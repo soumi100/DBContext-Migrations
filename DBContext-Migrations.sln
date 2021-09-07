@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBContext-Migrations", "DBContext-Migrations.csproj", "{BCF6E900-72AE-42BD-AEF1-1FF6F660CE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7BFE9B72-AF41-40C2-805E-C182635A2077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{C8E17672-3E68-4272-8CF3-851F3C933763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCF6E900-72AE-42BD-AEF1-1FF6F660CE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF6E900-72AE-42BD-AEF1-1FF6F660CE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF6E900-72AE-42BD-AEF1-1FF6F660CE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF6E900-72AE-42BD-AEF1-1FF6F660CE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFE9B72-AF41-40C2-805E-C182635A2077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFE9B72-AF41-40C2-805E-C182635A2077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFE9B72-AF41-40C2-805E-C182635A2077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFE9B72-AF41-40C2-805E-C182635A2077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E17672-3E68-4272-8CF3-851F3C933763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E17672-3E68-4272-8CF3-851F3C933763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E17672-3E68-4272-8CF3-851F3C933763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E17672-3E68-4272-8CF3-851F3C933763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F0BCE2B-3210-418D-B743-E343A316F91D}
+	EndGlobalSection
+EndGlobal
